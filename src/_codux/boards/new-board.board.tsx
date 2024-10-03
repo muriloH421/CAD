@@ -19,6 +19,7 @@ export default createBoard({
         src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
         alt=""
       />
+      <a href="/">Link</a>
     </div>
   ),
   isSnippet: true,
