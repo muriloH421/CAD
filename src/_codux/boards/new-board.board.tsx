@@ -6,7 +6,6 @@ export default createBoard({
   name: "New Board",
   Board: () => (
     <div>
-      <button>Button</button>
       <div />
       <nav className="NewBoardBoard_nav1">
         <a href="/home">Sobre Nós</a> | <a href="/projects">Projects</a> |{" "}
@@ -15,7 +14,9 @@ export default createBoard({
       <img
         src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
         alt=""
+        className="NewBoardBoard_img1"
       />
+      <button>Button</button>
       <img
         src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
         alt=""
