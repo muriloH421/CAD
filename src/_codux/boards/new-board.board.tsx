@@ -9,12 +9,10 @@ export default createBoard({
     <div className="NewBoardBoard_div1">
       <div></div>
       <nav className="NewBoardBoard_nav1">
-        <a href="/home" className="NewBoardBoard_a2">
-          Sobre Nós
-        </a>
         <a href="/home">Sobre Nós</a>
         <a href="/about">About</a> <a href="/contact">Contact Us</a>
       </nav>
+      <a href="/home" className="NewBoardBoard_a2"></a>
       <img
         src={AQuadroBrancoCanvaGoogleChrome0208202416241112Jpg}
         alt=""

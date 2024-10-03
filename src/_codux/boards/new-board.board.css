@@ -40,7 +40,14 @@
   color: #000000;
 }
 .NewBoardBoard_div1 {
-  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/a - quadro branco - canva - google chrome 02_08_2024 16_24_11 1 (2).jpg");
+  background-position: 50%;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-color: transparent;
 }
 .NewBoardBoard_img1 {
   position: sticky;
