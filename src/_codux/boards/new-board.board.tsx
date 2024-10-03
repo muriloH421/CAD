@@ -6,6 +6,7 @@ export default createBoard({
   name: "New Board",
   Board: () => (
     <div>
+      <button>Button</button>
       <div />
       <nav className="NewBoardBoard_nav1">
         <a href="/home">Sobre Nós</a> | <a href="/projects">Projects</a> |{" "}
