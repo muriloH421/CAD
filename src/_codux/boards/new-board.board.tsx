@@ -1,26 +1,32 @@
 import "./new-board.board.css";
 import React from "react";
 import { createBoard } from "@wixc3/react-board";
-import AQuadroBrancoCanvaGoogleChrome0208202416241112Jpg from "../../assets/a - quadro branco - canva - google chrome 02_08_2024 16_24_11 1 (2).jpg";
+import VectorSvg from "../../assets/Vector.svg";
 
 export default createBoard({
   name: "New Board",
   Board: () => (
     <div className="NewBoardBoard_div1">
-      <div></div>
       <nav className="NewBoardBoard_nav1">
-        <a href="/home" className="NewBoardBoard_a2">
-          Sobre Nós
-        </a>
-        <a href="/home">Sobre Nós</a>
-        <a href="/about">About</a> <a href="/contact">Contact Us</a>
+        <div className="NewBoardBoard_div1">
+          <img src={VectorSvg} className="NewBoardBoard_img2" />
+        </div>
+        <div className="NewBoardBoard_div2">
+          <a href="/contact" className="NewBoardBoard_a4">
+            Contact Us
+          </a>
+          <a href="/home" className="NewBoardBoard_a3">
+            Sobre Nós
+          </a>
+          <a href="/home" className="NewBoardBoard_a2">
+            Sobre Nós
+          </a>
+        </div>{" "}
       </nav>
-      <img
-        src={AQuadroBrancoCanvaGoogleChrome0208202416241112Jpg}
-        alt=""
-        className="NewBoardBoard_img1"
-      />
     </div>
   ),
   isSnippet: true,
+  environmentProps: {
+    windowBackgroundColor: "#ffffff",
+  },
 });
