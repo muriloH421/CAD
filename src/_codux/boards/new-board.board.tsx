@@ -7,11 +7,12 @@ export default createBoard({
   name: "New Board",
   Board: () => (
     <div className="NewBoardBoard_div1">
-      <div></div>
-      <nav className="NewBoardBoard_nav1">
-        <a href="/home">Sobre Nós</a>
-        <a href="/about">About</a> <a href="/contact">Contact Us</a>
-      </nav>
+      <div>
+        <nav className="NewBoardBoard_nav1">
+          <a href="/home">Sobre Nós</a>
+          <a href="/about">About</a> <a href="/contact">Contact Us</a>
+        </nav>
+      </div>
       <a href="/home" className="NewBoardBoard_a2"></a>
       <img
         src={AQuadroBrancoCanvaGoogleChrome0208202416241112Jpg}
