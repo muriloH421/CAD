@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 .NewBoardBoard_img1 {
   position: relative;
 }
@@ -24,14 +28,12 @@
   letter-spacing: normal;
   text-decoration-style: unset;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: end;
   gap: 20px;
   text-shadow: 3px 3px 2px rgba(0, 0, 0, 0);
   list-style-type: none;
   list-style-position: inside;
-  overflow: visible;
+  align-items: center;
+  justify-content: space-around;
 }
 .NewBoardBoard_a1 {
   color: #000000;
@@ -53,4 +55,24 @@
   height: 100%;
   width: 100%;
   position: absolute;
+}
+.NewBoardBoard_a3 {
+  color: #000000;
+  text-transform: uppercase;
+}
+.NewBoardBoard_a4 {
+  color: #000000;
+  text-transform: uppercase;
+}
+.NewBoardBoard_a5 {
+  color: #000000;
+  text-transform: uppercase;
+}
+.NewBoardBoard_a6 {
+  color: #000000;
+  text-transform: uppercase;
+}
+.NewBoardBoard_a7 {
+  color: #000000;
+  text-transform: uppercase;
 }
