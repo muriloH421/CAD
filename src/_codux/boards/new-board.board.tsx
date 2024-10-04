@@ -68,7 +68,7 @@ export default createBoard({
         <div>
           <h1 className="NewBoardBoard_header10">
             FAÇA A DIFERENÇA CONOSCO
-            <p>This is a paragraph.</p>
+            <p>This is a paragrap.</p>
           </h1>
         </div>
       </div>
@@ -76,6 +76,6 @@ export default createBoard({
   ),
   isSnippet: true,
   environmentProps: {
-    windowWidth: 1148,
+    windowWidth: 1166,
   },
 });
