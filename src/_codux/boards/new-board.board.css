@@ -1,5 +1,5 @@
 body {
-  height:30em;
+  height: 30em;
   margin: 0;
   padding: 0;
   background-color: #fff7d1;
@@ -83,7 +83,6 @@ body {
 }
 .NewBoardBoard_div1 {
   position: relative;
-  height: 100px;
 }
 .NewBoardBoard_img2 {
   display: block;
