@@ -1,5 +1,5 @@
 body {
-  height: 300em;
+  height:30em;
   margin: 0;
   padding: 0;
   background-color: #fff7d1;
@@ -211,4 +211,14 @@ body {
 }
 .NewBoardBoard_p7 {
   font-size: 19px;
+}
+.NewBoardBoard_header11 {
+  background-color: #ffd090;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }

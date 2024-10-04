@@ -19,7 +19,7 @@ export default createBoard({
           Sobre Nós
         </a>
         <a href="/about" className="NewBoardBoard_a6">
-          colaborar
+          doe
         </a>{" "}
         <img src={VectorSvg} />
       </nav>
@@ -74,6 +74,10 @@ export default createBoard({
           </p>
           <button className="NewBoardBoard_button1">Entre em Contato</button>
         </div>
+        <footer></footer>
+        <h3 className="NewBoardBoard_header11">
+          feito por ℳurilo &amp; Eduflippi
+        </h3>
       </div>
     </div>
   ),
