@@ -65,11 +65,14 @@ export default createBoard({
             </div>
           </div>
         </p>
-        <div>
-          <h1 className="NewBoardBoard_header10">
-            FAÇA A DIFERENÇA CONOSCO
-            <p>This is a paragrap.</p>
-          </h1>
+        <div className="NewBoardBoard_header10">
+          <h1>FAÇA A DIFERENÇA CONOSCO</h1>
+          <p className="NewBoardBoard_p7">
+            {" "}
+            Entre em contato para saber como podemos ajudar você ou sua
+            organização a promover a acessibilidade
+          </p>
+          <button className="NewBoardBoard_button1">Entre em Contato</button>
         </div>
       </div>
     </div>
