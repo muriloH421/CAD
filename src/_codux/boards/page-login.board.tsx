@@ -21,7 +21,7 @@ export default createBoard({
         <a href="/about" className="NewBoardBoard_a6">
           colaborar
         </a>{" "}
-        <img src={VectorSvg} />
+        <img src={VectorSvg} className="PageLoginBoard_img1" />
       </nav>
       <div className="PageLoginBoard_header1">
         <h1 className="PageLoginBoard_header2"> LOGIN</h1>
