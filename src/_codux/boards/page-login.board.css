@@ -1,0 +1,72 @@
+body {
+  background-color: #fff7d1;
+  height: 60rem;
+  width: auto;
+}
+.PageLoginBoard_div1 {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+}
+.PageLoginBoard_header1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  position: sticky;
+  margin-top: 40px;
+  margin-right: 25%;
+  margin-bottom: 120px;
+  margin-left: 25%;
+  width: 50%;
+  padding-top: 90px;
+  height: 40em;
+  align-items: center;
+}
+.PageLoginBoard_div2 {
+  width: 50px;
+  height: 20px;
+}
+.PageLoginBoard_form1 {
+  height: 25%;
+  width: 50%;
+}
+.PageLoginBoard_input1 {
+  width: 30em;
+  height: 30px;
+}
+.PageLoginBoard_input2 {
+  width: 30em;
+  height: 30px;
+}
+.PageLoginBoard_input3 {
+  width: 100px;
+  height: 25px;
+  margin-left: 45%;
+  font-family:
+    Comic Sans MS,
+    cursive;
+}
+.PageLoginBoard_label1 {
+  font-size: 20px;
+  line-height: 2;
+  font-family:
+    Comic Sans MS,
+    cursive;
+  color: #015aa6;
+}
+.PageLoginBoard_header2 {
+  font-size: 35px;
+  color: #e9013d;
+  font-family:
+    Comic Sans MS,
+    cursive;
+}
+.PageLoginBoard_label2 {
+  font-size: 20px;
+  line-height: 2;
+  font-family:
+    Comic Sans MS,
+    cursive;
+  color: #015aa6;
+}
