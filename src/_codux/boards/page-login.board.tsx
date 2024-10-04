@@ -25,20 +25,20 @@ export default createBoard({
       </nav>
       <div className="PageLoginBoard_header1">
         <h1 className="PageLoginBoard_header2"> LOGIN</h1>
-        <form className="PageLoginBoard_form1">
-          <label className="PageLoginBoard_label1">EMAIL:</label>
+        <form className="PageLoginBoard_form2">
+          <label className="PageLoginBoard_label3">Email:</label>
           <br />
-          <input type="text" className="PageLoginBoard_input1" />
+          <input type="text" className="PageLoginBoard_input4" />
           <br />
-          <label className="PageLoginBoard_label2">SENHA:</label>
+          <label className="PageLoginBoard_label4">Senha:</label>
           <br />
-          <input type="text" className="PageLoginBoard_input2" />
+          <input type="text" className="PageLoginBoard_input5" />
           <br />
           <br />
           <input
             type="submit"
-            value="ENTRAR"
-            className="PageLoginBoard_input3"
+            value="Submit"
+            className="PageLoginBoard_input6"
           />
         </form>
       </div>
@@ -46,7 +46,7 @@ export default createBoard({
   ),
   isSnippet: true,
   environmentProps: {
-    windowWidth: 1413,
-    windowHeight: 794,
+    windowWidth: 1475,
+    windowHeight: 908,
   },
 });
