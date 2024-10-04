@@ -37,7 +37,7 @@ export default createBoard({
           <br />
           <input
             type="submit"
-            value="Submit"
+            value="Entrar"
             className="PageLoginBoard_input6"
           />
         </form>
