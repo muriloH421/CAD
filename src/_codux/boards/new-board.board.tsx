@@ -19,7 +19,7 @@ export default createBoard({
           Sobre Nós
         </a>
         <a href="/about" className="NewBoardBoard_a6">
-          colaborar
+          doe
         </a>{" "}
         <img src={VectorSvg} />
       </nav>
@@ -65,12 +65,19 @@ export default createBoard({
             </div>
           </div>
         </p>
-        <div>
-          <h1 className="NewBoardBoard_header10">
-            FAÇA A DIFERENÇA CONOSCO
-            <p>This is a paragrap.</p>
-          </h1>
+        <div className="NewBoardBoard_header10">
+          <h1>FAÇA A DIFERENÇA CONOSCO</h1>
+          <p className="NewBoardBoard_p7">
+            {" "}
+            Entre em contato para saber como podemos ajudar você ou sua
+            organização a promover a acessibilidade
+          </p>
+          <button className="NewBoardBoard_button1">Entre em Contato</button>
         </div>
+        <footer></footer>
+        <h3 className="NewBoardBoard_header11">
+          feito por ℳurilo &amp; Eduflippi
+        </h3>
       </div>
     </div>
   ),
