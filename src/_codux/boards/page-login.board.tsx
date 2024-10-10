@@ -24,7 +24,7 @@ export default createBoard({
         <img src={VectorSvg} className="PageLoginBoard_img1" />
       </nav>
       <div className="PageLoginBoard_header1">
-        <h1 className="PageLoginBoard_header2"> LOGINpp</h1>
+        <h1 className="PageLoginBoard_header2"> LOGIN</h1>
         <form className="PageLoginBoard_form2">
           <label className="PageLoginBoard_label3">Email:</label>
           <br />
