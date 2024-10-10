@@ -50,18 +50,30 @@ body {
 .NewBoardBoard_a3 {
   color: #015aa6;
   text-transform: uppercase;
+  font-family:
+    Comic Sans MS,
+    cursive;
 }
 .NewBoardBoard_a4 {
   color: #e9013d;
   text-transform: uppercase;
+  font-family:
+    Comic Sans MS,
+    cursive;
 }
 .NewBoardBoard_a5 {
   color: #015aa6;
   text-transform: uppercase;
+  font-family:
+    Comic Sans MS,
+    cursive;
 }
 .NewBoardBoard_a6 {
   text-transform: uppercase;
   color: #e9013d;
+  font-family:
+    Comic Sans MS,
+    cursive;
 }
 .NewBoardBoard_a7 {
   color: #000000;
